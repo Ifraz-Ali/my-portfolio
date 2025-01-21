@@ -77,7 +77,7 @@ export default function Home() {
 
                         </div>
                         <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-                            <img src={profile} layout="fill" objectFit="cover" />
+                            <img src={profile} layout="fill" objectFit="cover" alt='profile' />
                         </div>
                     </div>
                 </section>
@@ -96,7 +96,7 @@ export default function Home() {
                     <div className="lg:flex gap-10">
                         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-900 dark:shadow-2xl flex-1">
                             <div className="flex justify-center items-center">
-                                <img src={code} width={320} height={320} />
+                                <img src={code} width={320} height={320} alt='coding-img' />
                             </div>
                             <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                                 Code your dream project
@@ -185,6 +185,7 @@ export default function Home() {
                                 height={"100%"}
                                 layout="responsive"
                                 src={web1}
+                                alt='web1'
                             />
                         </div>
                         <div className="basis-1/3 flex-1">
@@ -194,6 +195,7 @@ export default function Home() {
                                 height={"100%"}
                                 layout="responsive"
                                 src={web2}
+                                alt='web2'
                             />
                         </div>
                         <div className="basis-1/3 flex-1">
@@ -203,6 +205,7 @@ export default function Home() {
                                 height={"100%"}
                                 layout="responsive"
                                 src={web3}
+                                alt='web3'
                             />
                         </div>
                         <div className="basis-1/3 flex-1">
@@ -212,6 +215,7 @@ export default function Home() {
                                 height={"100%"}
                                 layout="responsive"
                                 src={web4}
+                                alt='web4'
                             />
                         </div>
                         <div className="basis-1/3 flex-1">
@@ -221,6 +225,7 @@ export default function Home() {
                                 height={"100%"}
                                 layout="responsive"
                                 src={web5}
+                                alt='web5'
                             />
                         </div>
                         <div className="basis-1/3 flex-1">
@@ -230,6 +235,7 @@ export default function Home() {
                                 height={"100%"}
                                 layout="responsive"
                                 src={web6}
+                                alt='web6'
                             />
                         </div>
                     </div>
