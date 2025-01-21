@@ -131,7 +131,7 @@ export default function Home() {
                         </div>
                         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-900 dark:shadow-2xl flex-1">
                             <div className="flex justify-center items-center">
-                                <img src={consulting} width={260} height={300} />
+                                <img src={consulting} width={260} height={300} alt='' />
                             </div>
                             <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">Consulting</h3>
                             <p className="py-2 dark:text-white">
