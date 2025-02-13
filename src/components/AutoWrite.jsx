@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 
+const textArray = [
+    "Computer Science Student",
+    "Aspiring Front-End Developer",
+    "Passionate About Coding",
+];
 const AutoWriteText = () => {
     const [displayedText, setDisplayedText] = useState("");
     const [index, setIndex] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [showCursor, setShowCursor] = useState(true);
 
-    const textArray = [
-        "Computer Science Student",
-        "Aspiring Front-End Developer",
-        "Passionate About Coding",
-    ];
 
     useEffect(() => {
         const currentText = textArray[index];
